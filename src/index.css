@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #23252c;
+}
+
+/* Typography */
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  color: #f5f5f5;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* Utility Class */
+
+.flex {
+  display: flex;
+}
+
+/* Layout */
+
+#root {
+  width: 330px;
+  margin: 2.5em auto 0;
+  background-color: #1a1b21;
+}
+
+.info {
+  padding-bottom: 1em;
+  margin-bottom: 1.2em;
+  text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+}
+
+.subtitle {
+  color: #f3bf99;
+}
+
+.website {
+  color: #f5f5f5;
+  font-size: 0.8rem;
+}
+
+.contact-links {
+  gap: 1em;
+  margin-top: 1.2em;
+  padding: 0 1.8em;
+}
+
+
+
+.content {
+  padding: 0 1.8em 1.8em;
+}
+
+.content-body {
+  color: #dcdcdc;
+  font-size: 0.9rem;
+}
+
+footer {
+  background-color: #161619;
+  text-align: center;
+  padding: 1.2em 0;
+  margin-bottom: 1em;
+}
+
+/* Buttons & Icons */
+
+.btn {
+  width: 130px;
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+}
+
+.mail-btn {
+  color: #374151;
+  background-color: #fff;
+}
+
+.linkedin-btn {
+  color: #fff;
+  background-color: #5093e2;
+}
+
+.icon {
+  margin-right: 1em;
+}
+
+.btn:hover,
+.btn:focus,
+.icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
